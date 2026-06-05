@@ -1,0 +1,60 @@
+The **mean, median, and mode** are the three pillars of **central tendency**. They are different ways to answer the simple question: *"What does the 'typical' value in this data look like?"*
+
+While they all describe the "center," they look at that center from different angles.
+
+---
+
+### 1. The Mean (The "Arithmetic Average")
+
+The mean is the most common measure. You calculate it by adding up all the values and dividing by the total count.
+
+* **Mathematical Formula:** $\bar{x} = \frac{\sum x}{n}$
+* **Best Used When:** Your data is "normally distributed" (it forms a bell curve) without extreme outliers.
+* **The Weakness:** It is **highly sensitive to outliers**. If you have a room of 10 people earning $50k/year, the mean is $50k. If a billionaire walks in, the "average" salary in that room jumps to over $90 million—which doesn't actually represent the "typical" person in the room at all.
+
+---
+
+### 2. The Median (The "Middle Value")
+
+The median is the literal middle point. If you line up all your data points from smallest to largest, the median is the one exactly in the middle.
+
+* **How to find it:** Sort the data. If $n$ is odd, it's the middle number. If $n$ is even, it's the average of the two middle numbers.
+* **Best Used When:** Your data is **skewed** or has extreme outliers (like income, housing prices, or website traffic).
+* **The Strength:** It is "robust." That billionaire walking into the room hardly moves the median salary at all. It represents the point where 50% of the population is above and 50% is below.
+
+---
+
+### 3. The Mode (The "Most Frequent")
+
+The mode is simply the value that appears most often in your dataset.
+
+* **Best Used When:** You are dealing with **categorical data** (e.g., which color of car sells best, or the most common shoe size). You can’t calculate a "mean" of shirt colors (Red + Blue / 2 makes no sense!), but you can easily find the mode.
+* **The Reality:** Some datasets are **bimodal** (two modes) or **multimodal** (many modes), which can actually provide more insight than a single average ever could.
+
+---
+
+### Comparison: How they relate to the "Shape" of data
+
+| Shape of Data | Relationship |
+| --- | --- |
+| **Perfectly Symmetrical** | Mean = Median = Mode |
+| **Skewed Right (Tail to the right)** | Mean > Median > Mode |
+| **Skewed Left (Tail to the left)** | Mean < Median < Mode |
+
+### When to use which?
+
+* **Use the Mean** if you want to know the "sum total" impact (e.g., total energy consumption, total weight).
+* **Use the Median** if you want to know the "typical" experience for an individual (e.g., typical salary, typical wait time).
+* **Use the Mode** if you want to know the most popular or common category (e.g., most common product size).
+
+---
+
+### The "Atomic" takeaway
+
+When you are looking at your "forms" or datasets, think of these not as three different ways to get the same answer, but as **three different filters** for the same data:
+
+* The **Mean** is the "Summary" (The balance point).
+* The **Median** is the "Position" (The physical center).
+* The **Mode** is the "Popularity" (The peak frequency).
+
+**Does this distinction help you decide which metric is the "truth" you need for your specific survey data, or are you trying to figure out which one is most likely to be "tricked" by your current dataset?**
